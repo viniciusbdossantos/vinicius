@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(40, 100, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#página {
+    padding: 50px 100px;
+    background-color: white;
+}
+
+#título {
+    text-align: center;
+}
+
+#partedecima {
+    text-align: center;
+    font-size: large;
+    size: 10px;
+}
