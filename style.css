@@ -1,4 +1,5 @@
 body {
+    margin: auto;
     background-color: rgb(40, 100, 20);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
@@ -8,6 +9,7 @@ body {
 #página {
     padding: 50px 100px;
     background-color: white;
+    height: 100vh;
 }
 
 #título {
@@ -17,5 +19,23 @@ body {
 #partedecima {
     text-align: center;
     font-size: large;
-    size: 10px;
+}
+
+#partedecima img {
+    width: 512px;
+    height: 288px;
+}
+
+#partedecima p {
+    margin: 25px 0;
+}
+
+#exposição {
+    display: flex;
+    align-content: space-between;
+}
+
+#exposição img {
+    height: 150px;
+    width: 150px;
 }
